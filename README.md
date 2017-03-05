@@ -56,7 +56,7 @@ In a new file, include _sixinch_library.scad_. For each of the parts, there is m
 The deafult modules obviously does not support everything you need, but should give you a good start for further customization. Feel free to add functionality to the library.
 
 ###Front Plate###
-'''
+```python
 square_hole        = [];
 round_hole         = [[65 ,7.5, 3.1],[69.5 ,7.5, 3.1]];
 round_peg          = [];   
@@ -65,7 +65,7 @@ screw_top          = [36];
 screw_bottom_front = [36];
 units              = 2; 
 frontplate(units,square_hole,round_hole,round_peg,screw_side_front,screw_top,screw_bottom_front);
-'''
+```
 
 
 
