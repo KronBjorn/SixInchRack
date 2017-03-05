@@ -37,9 +37,9 @@ Either go to thingiverse where you can find the stl's and pictures, or download 
 - http://www.thingiverse.com/thing:2105698 Beaglebone Black
 
 ##I want to make a new cabinet for my favourite module
-1) a
-2) b
-3) c
+1. a
+2. b
+3. c
 
 
 
