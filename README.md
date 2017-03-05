@@ -3,9 +3,9 @@
 This is a project for 6" cabinets and rack enclusures. 
 
 For pictures have a look here:
-  http://www.thingiverse.com/thing:1957436
-  http://www.thingiverse.com/thing:1936196
-  http://www.thingiverse.com/thing:2084736
+ - http://www.thingiverse.com/thing:1957436
+ - http://www.thingiverse.com/thing:1936196
+ - http://www.thingiverse.com/thing:2084736
 
 The project is a scaled down version of the familiar 19" rack standard, with the following size:
  - 1U is 14mm
