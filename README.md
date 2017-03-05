@@ -56,7 +56,7 @@ In a new file, include _sixinch_library.scad_. For each of the parts, there is m
 The deafult modules obviously does not support everything you need, but should give you a good start for further customization. Feel free to add functionality to the library.
 
 ###Front Plate###
-```python
+```java
 square_hole        = [];
 round_hole         = [[65 ,7.5, 3.1],[69.5 ,7.5, 3.1]];
 round_peg          = [];   
@@ -68,14 +68,14 @@ frontplate(units,square_hole,round_hole,round_peg,screw_side_front,screw_top,scr
 ```
 
 ###Handle###
-```python
+```java
 units              = 2;
 lay_flat_for_print = true;   
 handle(units,lay_flat_for_print);
 ```
 
 ###Cabinet###
-```python
+```java
 w=88;
 h=70;
 screw_bottom_front = [36];
@@ -90,7 +90,7 @@ cabinet(depth,units,screw_bottom_front,round_peg,screw_side_front);
 ```
 
 ###Lid###
-```python
+```java
 depth = 98;
 units = 2;
 screw_front = [36];//mm
@@ -99,8 +99,8 @@ lid(98,2,screw_front,screw_back);
 ```
 
 
-###Back plate###    
-```python
+###Back plate   
+```java
 square_hole  = [[37 ,3, 17, 15] , [57 ,4, 15, 16] , [75,4,15,16] ];
 round_hole   = [[6,5,6],[6,1,6], [24,3.5,3.5],[24,1.2,3.5]  ,[30,3.5,3.5],[30,1.2,3.5]];
 screw_top    = [36];//mm
