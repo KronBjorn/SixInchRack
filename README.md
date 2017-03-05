@@ -27,3 +27,8 @@ Go Thingiverse and locate this build: http://www.thingiverse.com/thing:1957436
 In the customizer you specify which parts you need.
 Alternatively, fetch these files from the repository:...
 
+##I want to print a 6" cabinet for a specific component
+Either go to thingiverse where you can find the stl's and pictures, or download the stl's form this repository. Currently the following components are supported by the community:
+
+- http://www.thingiverse.com/thing:2084736 Raspberry Pi 3 Model B
+- http://www.thingiverse.com/thing:1905998 Raspberry Pi B
