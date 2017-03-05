@@ -9,8 +9,9 @@ For pictures have a look here:
 
 The project is a scaled down version of the familiar 19" rack standard, with the following size:
  - 1U is 14mm
- - The front plate is 15.5cm wide
- - The inside distance between the two vertical profiles is 11.5cm
+ - The front plate is 155mm wide
+ - The inside distance between the two vertical profiles is 115mm
+ - The ears protrude 20mm
  
 It is designed for the 20x20 extruded aluminium profile, but a profile can also be printed.
 
