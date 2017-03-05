@@ -37,12 +37,27 @@ Either go to thingiverse where you can find the stl's and pictures, or download 
 - http://www.thingiverse.com/thing:2105698 Beaglebone Black
 
 ##I want to make a new cabinet for my favourite module
-Start by inspecting this file for inspiration _usb_back.scad_, and take a look at the how to section below.
+Start by inspecting this file for inspiration _RackCabinets/RaspberryPiModelB/usb_back.scad_, and take a look at the how to section below.
 
 1. Create a new file that includes _sixinch_library.scad_
 2. Customize all the parts needed for your cabinet
 3. Create a new folder with you project, and anything else needed like print descriptions
 4. If you like, create a Thingiverse build with pictures and your stl, and add a link in this file
+
+##Quick How To
+A cabinet consist of five parts:
+-Front plate
+-Rear plate
+-Cabinet
+-Lid
+-Handles
+
+In a new file, include _sixinch_library.scad_.
+
+
+
+
+
 
 
 
