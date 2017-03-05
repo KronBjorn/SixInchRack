@@ -37,9 +37,12 @@ Either go to thingiverse where you can find the stl's and pictures, or download 
 - http://www.thingiverse.com/thing:2105698 Beaglebone Black
 
 ##I want to make a new cabinet for my favourite module
-1. a
-1. b
-1. c
+Start by inspecting this file for inspiration: usb_back.scad
+
+1. Create a new file that includes <sixinch_library.scad>
+2. Customize all the parts needed for your cabinet
+3. Create a new folder with you project, and anything else needed like print descriptions
+4. If you like, create a Thingiverse build with pictures and your stl, and add a link in this file
 
 
 
