@@ -38,8 +38,8 @@ Either go to thingiverse where you can find the stl's and pictures, or download 
 
 ##I want to make a new cabinet for my favourite module
 1. a
-2. b
-3. c
+1. b
+1. c
 
 
 
