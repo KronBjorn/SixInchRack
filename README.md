@@ -67,6 +67,49 @@ units              = 2;
 frontplate(units,square_hole,round_hole,round_peg,screw_side_front,screw_top,screw_bottom_front);
 ```
 
+###Handle###
+```python
+units              = 2;
+lay_flat_for_print = true;   
+handle(units,lay_flat_for_print);
+```
+
+###Cabinet###
+```python
+w=88;
+h=70;
+screw_bottom_front = [36];
+screw_side_front   = [];
+round_peg          = [[w,h,6,2.8,4],
+                     [w-49,h,6,2.8,4],
+                     [w-49,h-58,6,2.8,4],
+                     [w,h-58,6,2.8,4]];
+depth              = 98;
+units              = 2;
+cabinet(depth,units,screw_bottom_front,round_peg,screw_side_front);
+```
+
+###Lid###
+```python
+depth = 98;
+units = 2;
+screw_front = [36];//mm
+screw_back  = [36];//mm
+lid(98,2,screw_front,screw_back);        
+```
+
+
+###Back plate###    
+```python
+square_hole  = [[37 ,3, 17, 15] , [57 ,4, 15, 16] , [75,4,15,16] ];
+round_hole   = [[6,5,6],[6,1,6], [24,3.5,3.5],[24,1.2,3.5]  ,[30,3.5,3.5],[30,1.2,3.5]];
+screw_top    = [36];//mm
+screw_bottom = [36];//mm
+screw_side   = [];
+depth        = 98;
+units        = 2;
+back_plate(units,depth,screw_top,screw_bottom,screw_side,square_hole,round_hole);
+```
 
 
 
