@@ -44,10 +44,10 @@ Start by inspecting this file for inspiration _RackCabinets/RaspberryPiModelB/us
 3. Create a new folder with you project, and anything else needed like print descriptions
 4. If you like, create a Thingiverse build with pictures and your stl, and add a link in this file
 
-##Quick How To
+##Quick How To##
 A cabinet consist of five parts:
 - Front plate
-- Rear plate
+- Back plate
 - Cabinet
 - Lid
 - Handles
