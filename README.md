@@ -16,18 +16,18 @@ The project is a scaled down version of the familiar 19" rack standard, with the
 It is designed for the 20x20 extruded aluminium profile, but a profile can also be printed.
 
 
-##I want to print a simple blank six inch cabinet
+## I want to print a simple blank six inch cabinet
 Go Thingiverse and locate this build: http://www.thingiverse.com/thing:1957436
 In the customizer you specify how many units you need in height, and depth in mm you need.
 Alternatively, fetch these files from the repository:...
 
 
-##I want to print a simple six inch rack enclosure for cabinets
+## I want to print a simple six inch rack enclosure for cabinets
 Go Thingiverse and locate this build: http://www.thingiverse.com/thing:1957436
 In the customizer you specify which parts you need.
 Alternatively, fetch these files from the repository:...
 
-##I want to print a 6" cabinet for a specific component
+## I want to print a 6" cabinet for a specific component
 Either go to thingiverse where you can find the stl's and pictures, or download the stl's form this repository. Currently the following components are supported by the community:
 
 - http://www.thingiverse.com/thing:2084736 Raspberry Pi 3 Model B
@@ -36,7 +36,7 @@ Either go to thingiverse where you can find the stl's and pictures, or download 
 - http://www.thingiverse.com/thing:2123108 DPS5005 power supply
 - http://www.thingiverse.com/thing:2105698 Beaglebone Black
 
-##I want to make a new cabinet for my favourite module
+## I want to make a new cabinet for my favourite module
 Start by inspecting this file for inspiration _RackCabinets/RaspberryPiModelB/usb_back.scad_, and take a look at the how to section below.
 
 1. Create a new file that includes _sixinch_library.scad_
@@ -44,7 +44,7 @@ Start by inspecting this file for inspiration _RackCabinets/RaspberryPiModelB/us
 3. Create a new folder with you project, and anything else needed like print descriptions
 4. If you like, create a Thingiverse build with pictures and your stl, and add a link in this file
 
-##Quick How To##
+## Quick How To ##
 A cabinet consist of five parts:
 - Front plate
 - Back plate
@@ -55,7 +55,7 @@ A cabinet consist of five parts:
 In a new file, include _sixinch_library.scad_. For each of the parts, there is module in the library where you can specify the most commonly used features like round and square holes, and pegs for supporting PCB's etc. The following examples are for Raspberry Pi 3 cabinet. <br>
 The deafult modules obviously does not support everything you need, but should give you a good start for further customization. Feel free to add functionality to the library.
 
-###Front Plate###
+### Front Plate ###
 ```java
 square_hole        = [];
 round_hole         = [[65 ,7.5, 3.1],[69.5 ,7.5, 3.1]];
@@ -67,14 +67,14 @@ units              = 2;
 frontplate(units,square_hole,round_hole,round_peg,screw_side_front,screw_top,screw_bottom_front);
 ```
 
-###Handle###
+### Handle ###
 ```java
 units              = 2;
 lay_flat_for_print = true;   
 handle(units,lay_flat_for_print);
 ```
 
-###Cabinet###
+### Cabinet ###
 ```java
 w=88;
 h=70;
@@ -89,7 +89,7 @@ units              = 2;
 cabinet(depth,units,screw_bottom_front,round_peg,screw_side_front);
 ```
 
-###Lid###
+### Lid ###
 ```java
 depth = 98;
 units = 2;
@@ -99,7 +99,7 @@ lid(98,2,screw_front,screw_back);
 ```
 
 
-###Back plate   
+### Back plate   
 ```java
 square_hole  = [[37 ,3, 17, 15] , [57 ,4, 15, 16] , [75,4,15,16] ];
 round_hole   = [[6,5,6],[6,1,6], [24,3.5,3.5],[24,1.2,3.5]  ,[30,3.5,3.5],[30,1.2,3.5]];
