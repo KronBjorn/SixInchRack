@@ -180,8 +180,8 @@ module box(dp,u,screw_bottom_front,round_peg,screw_side_front){
     difference(){
         translate([20,0,gauge]){
             difference(){
-                cube([115,u*unit,dp]);
-                translate([gauge_box,gauge_box,-1]){ cube([115-gauge_box*2,u*unit,dp+2]);}                        
+                cube([(sixinch-40),u*unit,dp]);
+                translate([gauge_box,gauge_box,-1]){ cube([(sixinch-40)-gauge_box*2,u*unit,dp+2]);}                        
             }            
         }
         //CHIMNEY
